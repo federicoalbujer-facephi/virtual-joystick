@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hand Gesture Control</title>
+
+    <style type="text/css">
+		#canvas {
+			-moz-transform: scaleX(-1);
+	        -o-transform: scaleX(-1);
+	        -webkit-transform: scaleX(-1);
+	        transform: scaleX(-1);
+	        filter: FlipH;
+	        -ms-filter: "FlipH";
+		}
+
+		#divCar {
+			display: inline-block;
+		    vertical-align: top;
+		    padding: 100px;
+		}
+	</style>
+</head>
+
+<body>
+    <video id="video" playsinline autoplay autoplay style="display:none;"></video>
+    <canvas id="canvas" width="475" height="475"></canvas>
+	<div id="divCar">
+    	<img id="car" src="car.png" />
+    </div>
+	<div style="display: inline-block;" id="info"></div>
+
+	<script type="text/javascript" src="camera.js"></script>
+	<script type="text/javascript" src="utils.js"></script>
+	<script type="text/javascript" src="vobject.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+    <script type="text/javascript">
+        window.onload = main();
+    </script>
+</body>
+</html>
