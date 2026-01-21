@@ -1,3 +1,10 @@
+/*
+ * Virtual Joystick - Hand Gesture Control
+ * Copyright (c) 2026 Federico Albujer Zornoza
+ * Licensed under the MIT License
+ * See LICENSE file for more information
+ */
+
 var OBJECT_COLOR       = new Color(60, 160, 235); 
 var MARKER_COLOR       = new Color(255, 0, 0);
 var DISTANCE_THRESHOLD = 75;
