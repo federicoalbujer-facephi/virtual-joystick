@@ -1,3 +1,10 @@
+/*
+ * Virtual Joystick - Hand Gesture Control
+ * Copyright (c) 2026 Federico Albujer Zornoza
+ * Licensed under the MIT License
+ * See LICENSE file for more information
+ */
+
 class Camera {
     constructor(width, height) {
         this.video = document.getElementById('video');
